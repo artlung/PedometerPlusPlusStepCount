@@ -24,9 +24,9 @@
           title: 'Step History / Joe Crawford',
           hAxis: {
           		title: 'Date',
-          		ticks: [new Date(2014,0,1), new Date(2015,0,1), new Date(2016,0,1)]	
+          		ticks: [new Date(2014,0,1), new Date(2015,0,1), new Date(2016,0,1), new Date(2017,0,1), new Date(2018,0,1)]	
           	},
-          vAxis: { 
+          vAxis: {
           		title: 'Steps',
           		minValue: 0,
           		maxValue: 30000,
@@ -36,7 +36,7 @@
 		    pointSize: 2,
 		    curveType: 'function',
           legend: 'none',
-          explorer: { 
+          explorer: {
           	actions: ['dragToZoom', 'rightClickToReset'],
           	axis: 'horizontal'
           }
